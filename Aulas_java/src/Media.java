@@ -15,7 +15,7 @@ public class Media {
         } else if (media < 4.0) {
             System.out.println("Está reprovado");
         } else {
-            System.out.println("Está na Champions League");
+            System.out.println("Está na final da Champions League");
         }
     }
 }
