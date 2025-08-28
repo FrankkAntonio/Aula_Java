@@ -12,15 +12,25 @@ public class IMC_PESSOAL {
 
         System.out.println("Digite sua Altura: ");
         double altura = sc.nextDouble();
-        System.out.println("altura");
+        System.out.println(altura);
 
         sc.close();
 
         double IMC = peso/(altura*altura);
+        System.out.printf("Seu Imc é: %.2f\n", IMC);
 
         if (IMC < 18.5) {
             System.out.println("Baixo peso");
 
+        } else if (IMC >= 18.5 && IMC < 24.99) {
+            System.out.println("Peso normal");
+            
+        } else if (IMC >= 25 && IMC < 29.99) {
+            System.out.println("Está com sobrepeso");
+            
+        } else if (IMC >= 30) {
+            System.out.println("Está com obesidade");
+            
         }
 
     }
