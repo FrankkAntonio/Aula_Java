@@ -4,7 +4,7 @@ public class Aula02 {
     public static void main(String[] args) {
 
 
-        Scanner sc =new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite seu nome completo: ");
         String nome = sc.next();

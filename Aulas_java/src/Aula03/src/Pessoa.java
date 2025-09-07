@@ -7,9 +7,6 @@ public class Pessoa {
     public void niver () {
         idade++;
 
-
-
-
     }
 
 }
