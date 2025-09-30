@@ -6,10 +6,10 @@ public class Main {
      Scanner sc = new Scanner(System.in);
 
      System.out.println("Digite sua idade: ");
-     p.idade = sc.nextInt();
+     p.setIdade(sc.nextInt());
      p.niver();
 
-     System.out.println("Daqui a um ano você vai ter: " + p.idade);
+     System.out.println("Daqui a um ano você vai ter: " + p.getIdade());
 
      sc.close();
     }
