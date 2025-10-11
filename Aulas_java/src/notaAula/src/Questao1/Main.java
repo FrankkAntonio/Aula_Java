@@ -4,8 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Funcionario f = new Funcionario();
-        double inss;
-        double salarioLiquido;
 
         System.out.println("Digite o seu nome: ");
         f.nome = sc.nextLine();
@@ -16,6 +14,8 @@ public class Main {
         System.out.println("Digite o seu salario: ");
         f.salarioBruto = sc.nextDouble();
 
+        f.exibirContraCheque();
+        sc.close();
 
 
     }
